@@ -1,0 +1,13 @@
+[package]
+name = "axum-svelte"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+mime_guess = "2.0.5"
+rust-embed = { version = "8.5.0", features = ["interpolate-folder-path"] }
+tokio = { version = "1.39.2", features = ["macros", "net", "rt"] }
+
+[build-dependencies]
+npm_rs = "1.0.0"
